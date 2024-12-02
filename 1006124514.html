@@ -28,11 +28,59 @@
                     <div class="card-body">
                       <h5 class="card-title">github instrucciones</h5>
                       <p class="card-text">aprende a usar github</p>
+                      
                     </div>
                   </div>
               </div>
               <div class="col-7">
-                2 of 3 (wider)
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">paso</th>
+                        <th scope="col">descripcion</th>
+                        <th scope="col">comando</th>
+                        <th scope="col">Handle</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>En la línea de comandos, navega al directorio raíz de tu proyecto nuevo. (Este directorio se ha creado cuando ha ejecutado el comando gh repo create).</td>
+                        <td>Otto</td>
+                        <td>-</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Cree un archivo Léame con cierta información sobre el proyecto.</td>
+                        <td>gh repo create</td>
+                        <td>-</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Escriba git status. Verá que tiene un archivo README.md sin seguimiento.</td>
+                        <td>$ git status
+
+                            Untracked files:
+                              (use "git add <file>..." to include in what will be committed)
+                              README.md
+                            
+                            nothing added to commit but untracked files present (use "git add" to track)</td>
+                        <td>-</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>Prueba y confirma el archivo.</td>
+                        <td>git add README.md && git commit -m "Add README"</td>
+                        <td>-</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>Sube los cambios a tu rama.</td>
+                        <td>git push --set-upstream origin HEAD</td>
+                        <td>-</td>
+                      </tr>
+                    </tbody>
+                  </table>
               </div>
     </div>
 </body>
